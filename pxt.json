@@ -1,0 +1,26 @@
+{
+    "name": "McLarry Test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "McLarry 1.0": "github:nkvgt/mclarry-1#a1b844b80c8a1750b0fad5247809562d0250c38c",
+        "McLarry 2.0": "github:nkvgt/mclarry-2#5e3bdae326c8a462fc2b6fa1bd88522fc6770053",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
